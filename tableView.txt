@@ -1,0 +1,55 @@
+table viereerew: hiển thị danh sách dữ liệu thành các row
+đánh dấu chỉ mục  index scroll tới vị trí khi tìm kiếm 
+
+1 table view các thành phần có thẻ có 
+
+Header của Table View
+Header của Section
+Table View Cell
+Footer của Section
+Table View Cell (thuộc Section khác)
+Section
+Footer của Table View
+
+
+--------------
+hiển thị danh sách cần một số protocol
+
+UItableViewDelegate
+UItableViewDataSource
+
+--------------------
+
+UIViewController + UITableView = UITableViewController(có sẵn  delegate và datasource)
+
+
+
+--------------------NSUserDefault 
+-save objects from class types: NSData, NSString, NSNumber, NSDate, NSArray, NSDictionary
+
+
+
+-------------------- core data 
+NSManagedObjectModel : quản lý đại diện mô hình dữ liệu của ứng dụng
+NSManagedObjectContext
+NSPersistentStoreCoordinator: lưu dữ liệu vào đĩa và đảm bảo lưu trữ liên tục 
+
+Core data
+- NSFetchRequest
+- Managed Object Context 
+- Managed Object Model
+- Data Model 
+- Persistent StoreCoordinator 
+- Persistent Store
+
+
+XCTest 
+- test cases
+- test method
+Core data 
+- modeling 
+- saving
+- fetching
+
+ - decodable
+tắt mạng chạy thử
